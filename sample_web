@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociophysical Well Being Features</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f7ff; /* Calming sky blue */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4d94ff; /* Darker blue for header */
+            color: white;
+            padding: 1em;
+        }
+
+        section {
+            margin: 2em;
+        }
+
+        .icon {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #333; /* Dark gray for link */
+        }
+
+        .icon-label {
+            display: block;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .icon {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sociophysical Well Being Features</h1>
+    </header>
+
+    <section>
+        <a href="https://example.com/schedule-pet-visit" target="_blank">
+            <div class="icon">
+                <img src="pet_visit_icon.png" alt="Schedule a Pet Visit" width="50" height="50">
+                <span class="icon-label">Schedule a Pet Visit</span>
+            </div>
+        </a>
+
+        <a href="https://example.com/reach-out-to-family" target="_blank">
+            <div class="icon">
+                <img src="family_icon.png" alt="Reach Out to My Family" width="50" height="50">
+                <span class="icon-label">Reach Out to My Family</span>
+            </div>
+        </a>
+
+        <a href="https://example.com/therapy-appointment" target="_blank">
+            <div class="icon">
+                <img src="therapy_icon.png" alt="Therapy Appointment" width="50" height="50">
+                <span class="icon-label">Therapy Appointment</span>
+            </div>
+        </a>
+
+        <a href="https://example.com/find-a-hobby" target="_blank">
+            <div class="icon">
+                <img src="hobby_icon.png" alt="Find a Hobby" width="50" height="50">
+                <span class="icon-label">Find a Hobby</span>
+            </div>
+        </a>
+
+        <a href="https://example.com/take-a-class" target="_blank">
+            <div class="icon">
+                <img src="class_icon.png" alt="Take a Class" width="50" height="50">
+                <span class="icon-label">Take a Class</span>
+            </div>
+        </a>
+    </section>
+</body>
+</html>
